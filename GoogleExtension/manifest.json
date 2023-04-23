@@ -1,0 +1,13 @@
+{
+    "manifest_version": 2,
+    "name": "Hazem Code Finder",
+    "version": "1.0",
+    "content_scripts": [
+        {
+            "matches":[
+                "https://hazem.gg/?index"
+            ],
+            "js":["content.js"]
+        }
+    ]
+}
